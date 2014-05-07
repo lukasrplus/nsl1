@@ -55,7 +55,7 @@ ul{
 }
 ul ul{
 	list-style: circle;
-}	
+}
 ul li, ol li{
 	margin: 3px 0;
 }
@@ -70,8 +70,8 @@ ul li, ol li{
    Author's custom styles
    ========================================================================== */
 html { height: 100%; }
-body { 
-	min-height: 100%; 
+body {
+	min-height: 100%;
 	font-size: 1.5em;
 	font-family: 'Open Sans', Helvetica, Helvetica Nue, Arial, sans-serif;
 	height: 100%;
@@ -176,7 +176,7 @@ table{
 }
 .table td{
 	border-color: #4D5F65;
-}	
+}
 .table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th{
 	background: #2D3E43;
 }
@@ -199,14 +199,14 @@ p + .btn{
 	transition: all ease-in-out .3s;
 	margin: 10px 0;
 	box-shadow: none;
-	filter: none; 
+	filter: none;
 }
 .btn.disabled{
 	background: #39AE77;
 	color: #fff;
 }
 .btn:hover{
-	filter: none; 
+	filter: none;
 	background: none;
 	color: #fff;
 }
@@ -259,7 +259,7 @@ p .btn{
     position: relative;
 	margin: 10px 0 25px;
 	background-color: #243135;
-	filter: none; 
+	filter: none;
 }
 .dark-bg .progress {
     background-color: #2D3E43;
@@ -270,7 +270,7 @@ p .btn{
     border-radius: 0;
     box-shadow: none;
 	position: relative;
-	filter: none; 
+	filter: none;
 }
 .progress .progress-name {
 	color: #FFFFFF;
@@ -283,7 +283,7 @@ p .btn{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}	
+}
 .progress .value {
     color: #FFFFFF;
     line-height: 38px;
@@ -306,7 +306,7 @@ p .btn{
     width: 45px;
 	z-index: 20;
 	cursor: pointer;
-}	
+}
 .label, .badge {
     background-color: #39AE77;
     color: #FFFFFF;
@@ -336,7 +336,7 @@ p .btn{
 	border-bottom: 2px solid #4D5F65;
 	padding: 10px;
 	background: #243135;
-}	
+}
 .nav-tabs{
 	margin: 0;
 	border: 0;
@@ -372,7 +372,7 @@ p .btn{
 	border-bottom: 2px solid #4D5F65;
 	padding: 10px;
 	background: #2D3E43;
-}	
+}
 .dark-bg .nav-tabs li.active a{
 	background: #2D3E43;
 	border-color: #2D3E43;
@@ -413,7 +413,7 @@ p .btn{
 }
 .carousel-control{
 	background: none;
-	filter: none; 
+	filter: none;
 	border: none;
 	font-size: 90px;
 	border-radius: 0;
@@ -461,7 +461,7 @@ p .btn{
 }
 .carousel-inner{
 	border-bottom: 2px solid #252f32;
-}	
+}
 .alert{
 	border-radius: 0;
 	font-size: 14px;
@@ -518,7 +518,7 @@ a[rel=popover]{
 }
 .popover-title{
 	border-bottom: 1px solid #4d5f65;
-}	
+}
 .popover.top .arrow:after {
     border-top-color: #243135;
 }
@@ -534,10 +534,10 @@ a[rel=popover]{
 .navbar .btn-navbar{
 	background-image: none;
 	background: #39ae77;
-	filter: none; 
+	filter: none;
 }
 .navbar .navbar-inner{
-	background-color: #243135;
+	background-color: #1F2226;
     background-image: none;
 	border: none;
 	border-radius: 0;
@@ -545,7 +545,12 @@ a[rel=popover]{
     min-height: 40px;
     padding: 10px 20px 12px;
 	box-shadow: 0 -3px 2px 0 #3E4C51 inset;
-	filter: none; 
+	filter: none;
+   margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
 }
 
 .navbar .navbar-inner .brand{
@@ -555,22 +560,28 @@ a[rel=popover]{
 }
 .navbar-inner .nav > li{
 	margin-right: 5px;
+  display: table-cell;
+  float: none;
+  text-align: center;
 }
 .navbar .navbar-inner .nav > li.active > a,
-.navbar .navbar-inner .nav > li.active > a:hover, 
+.navbar .navbar-inner .nav > li.active > a:hover,
 .navbar .navbar-inner .nav > li.active> a:focus {
     border: 1px solid #3e4c51;
-	background: #39ae77;
+	background: #ffffff;
 	color: #fff;
 }
 .navbar-inner .nav > li > a {
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-	color: #87989e;
+	color: #FFFFFF;
 	padding: 10px 15px;
 	border: 1px solid transparent;
 	text-shadow: none;
+  text-align: center;
+  letter-spacing: 4px;
 }
 .navbar-inner .nav > li > a:focus {
 	color: #87989e;
@@ -578,7 +589,7 @@ a[rel=popover]{
 .navbar-inner .nav > li > a:hover{
 	border-color: #3e4c51;
 	color: #fff;
-	filter: none; 
+	filter: none;
 	background: none;
 }
 .navbar .brand {line-height:1}
@@ -597,14 +608,14 @@ a[rel=popover]{
 	margin: 0;
 }
 .dropdown-menu > li > a {
-    color: #FFFFFF;
+    color: #1F2226;
 	 padding: 5px 20px;
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
     background-color: #243135;
 	background-image: none;
-	filter: none; 
-}	
+	filter: none;
+}
 blockquote{
 	border: none;
 	font-size: 28px;
@@ -638,10 +649,10 @@ blockquote h2 i{
 	background: no-repeat fixed 50% 0;
 	position: relative;
 	box-shadow: inset 0 4px 6px rgba(0,0,0,.6);
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	text-align: center;
 	color: #fff;
 	height: 100%;
@@ -660,8 +671,8 @@ blockquote h2 i{
 	background: rgba(0,0,0,.5);
 	border: .2em solid #fff;
 	font-size: 30px;
-	-moz-box-sizing: border-box; 
-    box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
 	line-height: 1.2;
 }
 .lt-ie9 .parallax .text{
@@ -683,7 +694,7 @@ blockquote h2 i{
 	opacity: 1;
 	text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
 	box-shadow: 0px 1px 2px rgba(0,0,0,0.7);
-	line-height: 1.5; 
+	line-height: 1.5;
 }
 .lt-ie9 #logotext.text{
 	background: url('img/ie-black-bg.png')
@@ -695,7 +706,7 @@ blockquote h2 i{
 	height: 105%;
 }
 #works-bg .text{
-	position: absolute; 
+	position: absolute;
 	top: 17%;
 	left: 25%;
 	width: 50%;
@@ -892,7 +903,7 @@ blockquote h2 i{
 /*services*/
 .services-block article{
 	margin-top: 30px;
-}	
+}
 .services-block .icon-service {
     border-radius: 0 0 0 0;
     float: left;
@@ -942,7 +953,7 @@ blockquote h2 i{
 .second-service article:hover .block-icon{
 	border: 4px solid #39AE77;
 	background: none;
-	filter: none; 
+	filter: none;
 }
 .block-icon i{
 	font-size: 80px;
@@ -1191,12 +1202,12 @@ h3 + .info-panel{
 }
 .dark-bg .social ul li a i {
 	color: #243135;
-}	
+}
 .social ul li a:hover{
 	background: #39AE77;
 }
-	
-	
+
+
 /*footer*/
 footer{
 	z-index: 4;
@@ -1248,7 +1259,7 @@ footer .info-block i{
 .copyright-block p{
 	margin: 0 0 8px;
 	font-size: 12px;
-}	
+}
 
 /* ==========================================================================
    Helper classes
@@ -1280,8 +1291,8 @@ footer .info-block i{
 	#works-bg .text {
 		left: 50%;
 		margin-left: -36%;
-		width: 72%;	
-	}	
+		width: 72%;
+	}
 }
 @media only screen and (max-width: 980px) {
 	.navbar-fixed-top,
@@ -1424,7 +1435,7 @@ footer .info-block i{
 	#works-bg .text{
 		top: 18%;
 	}
-	
+
 }
 @media only screen and (max-height: 360px) {
 	#logotext.text{
