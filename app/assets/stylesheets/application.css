@@ -1,0 +1,77 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+html{
+        height: 100%;
+      }
+          body {
+            min-height: 100%;
+            font-size: 1.5em;
+            font-family: 'Open Sans', Helvetica, Helvetica Nue, Arial, sans-serif;
+            height: 100%;
+            background: #243135;
+            color: #b1c1c6;
+            text-align: center;
+          }
+          a, a:hover, a:focus{
+            color: #39AE77;
+          }
+      .wrap{
+        min-height: 100%;
+      }
+          hgroup{
+            margin: 80px 0;
+          }
+          hgroup h1{
+            font-weight: 600;
+            font-size: 40px;
+            color: #fff;
+          }
+          hgroup h2{
+            color: #39AE77;
+            font-weight: 400;
+            font-size: 22px;
+          }
+          h3{
+            color: #fff;
+            font-size: 20px;
+            background: #39AE77;
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+          .span6{
+            margin-bottom: 20px;
+          }
+          .mockup-wrapper{
+            background: #2d3e43;
+            padding: 30px;
+            border: 1px solid #2d3e43;
+            transition: all ease-in-out .3s;
+          }
+          .mockup-wrapper:hover{
+            background: none;
+            border-color: #39AE77;
+          }
+
+          footer{
+            padding-bottom: 10px;
+        clear: both;
+        height: 40px;
+        width: 100%;
+        margin-top: -50px;
+          }
+          footer p{
+            font-size: 14px;
+          }
